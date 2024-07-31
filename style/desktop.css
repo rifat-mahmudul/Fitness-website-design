@@ -106,6 +106,7 @@ header{
     color: rgb(255, 255, 255);
     font-size: 4rem;
     font-weight: 900;
+    line-height: 70px;
 }
 
 .banner-text p{
@@ -210,3 +211,71 @@ header{
     color: rgb(230, 83, 60);
 }
 /* header section end */
+
+
+/* habits-section start  */
+.habits-section{
+    background-color: black;
+}
+
+.habits-section-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.habits-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.habits-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 15px 0;
+    margin-bottom: 50px;
+}
+
+.habits-card-contaner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habits-card{
+    height: 300px;
+    width: 250px;
+}
+
+.habits-card-img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.habits-card-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.habits-card h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+}
+
+.habits-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+/* habits-section end  */
