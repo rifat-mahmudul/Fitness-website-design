@@ -132,3 +132,34 @@
     font-size: 10px;
 }
 /* training-section end */
+
+
+/* bmi-section start */
+.bmi-section-heading{
+    width: 90%;
+}
+.bmi-section-container{
+    width: 90%;
+    flex-direction: column;
+}
+
+table{
+    margin-bottom: 30px;
+    margin-top: -25px;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+}
+
+#Sex{
+    width: 150px;
+    height: 30px;
+}
+
+#factor{
+    width: 305px;
+    height: 30px;
+}
+/* bmi-section end */

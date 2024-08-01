@@ -453,3 +453,131 @@ header{
     background-blend-mode: overlay;
 }
 /* training-section end */
+
+/* bmi-section start */
+.bmi-section{
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.bmi-container{
+    background-color: rgb(34, 34, 34);
+    padding: 30px 0;
+}
+
+.bmi-section-heading{
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.bmi-section-heading h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.bmi-section-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.bmi-section-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-cal-chart h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+table{
+    color: white;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    text-align: left;
+    color: rgba(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bmi-calculator{
+    color: white;
+}
+
+.bmi-calculator h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin: 5px 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0 10px;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#Sex{
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0 10px;
+}
+
+#factor{
+    width: 405px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+/* bmi-section end */
