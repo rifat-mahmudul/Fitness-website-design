@@ -581,3 +581,98 @@ input::placeholder{
     padding: 0 10px;
 }
 /* bmi-section end */
+
+
+/* team-section start */
+.team-section{
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.team-section-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.team-section-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.team-section-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+}
+
+.teams{
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.teams p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.teams h3{
+    margin-top: 130px;
+    font-weight: 700;
+}
+
+.team-1{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.team-2{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.team-3{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.team-4{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.team-5{
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.team-6{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+/* team-section end */

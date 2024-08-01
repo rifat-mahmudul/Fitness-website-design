@@ -163,3 +163,11 @@ input{
     height: 30px;
 }
 /* bmi-section end */
+
+
+/* team-section start */
+.team-section-container{
+    width: 90%;
+    grid-template-columns: repeat(1,1fr);
+}
+/* team-section end */
