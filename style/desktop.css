@@ -348,3 +348,108 @@ header{
     background-color: rgb(159, 56, 41);
 }
 /* run-section end */
+
+/* training-section start */
+.training-section{
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.training-section-container{
+    color: white;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.training-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.training-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.training-img-container-1{
+    display: flex;
+}
+
+.training-img-container-2{
+    display: flex;
+}
+
+.training-img-1{
+    height: 200px;
+    width: 30%;
+    background-image: url(../images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
+}
+
+.training-img-h3{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 800;
+    text-align: start;
+    padding: 20px;
+    margin-top: 130px;
+}
+
+.training-img-2{
+    height: 200px;
+    width: 40%;
+    flex-grow: 3;
+    background-image: url(../images/exercise2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+
+.training-img-3{
+    height: 200px;
+    width: 30%;
+    background-image: url(../images/exercise3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.training-img-4{
+    height: 200px;
+    width: 38%;
+    background-image: url(../images/exercise4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.training-img-5{
+    height: 200px;
+    width: 30%;
+    background-image: url(../images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
+}
+
+.training-img-6{
+    height: 200px;
+    width: 32%;
+    background-image: url(../images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+}
+/* training-section end */

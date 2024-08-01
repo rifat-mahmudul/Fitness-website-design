@@ -96,3 +96,39 @@
     width: 100%;
 }
 /* run-section end */
+
+/* training-section start */
+.training-section-container{
+    width: 90%;
+}
+
+.training-img-1{
+    width: 50%;
+}
+
+.training-img-2{
+    width: 50%;
+    background-size: contain;
+}
+
+.training-img-4{
+    width: 40%;
+}
+
+.training-img-5{
+    width: 60%;
+}
+
+.training-img-3{
+    display: none;
+}
+
+.training-img-6{
+    display: none;
+}
+
+.training-img-h3{
+    margin-top: 130px;
+    font-size: 10px;
+}
+/* training-section end */
