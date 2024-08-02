@@ -114,6 +114,7 @@ header{
     font-size: 1rem;
     font-weight: 400;
     margin: 15px 0;
+    line-height: 1.5rem;
 }
 
 .banner-text-btn{
@@ -180,6 +181,7 @@ header{
     color: rgba(255, 255, 255, 0.65);
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.5rem;
 }
 
 .banner-img-card2{
@@ -204,6 +206,7 @@ header{
     color: rgba(255, 255, 255, 0.65);
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.5rem;
 }
 
 .banner-img-card2-icon i{
@@ -238,6 +241,7 @@ header{
     text-align: center;
     margin: 15px 0;
     margin-bottom: 50px;
+    line-height: 1.5rem;
 }
 
 .habits-card-contaner{
@@ -277,6 +281,7 @@ header{
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+    line-height: 1.5rem;
 }
 /* habits-section end  */
 
@@ -318,6 +323,7 @@ header{
     font-size: 14px;
     font-weight: 400;
     margin: 15px 0;
+    line-height: 1.5rem;
 }
 
 .run-img{
@@ -373,6 +379,7 @@ header{
     font-weight: 400;
     margin-top: 15px;
     margin-bottom: 25px;
+    line-height: 1.5rem;
 }
 
 .training-img-container-1{
@@ -483,6 +490,7 @@ header{
     font-weight: 400;
     margin-top: 15px;
     margin-bottom: 50px;
+    line-height: 1.5rem;
 }
 
 .bmi-section-container{
@@ -537,11 +545,12 @@ td{
     font-size: 1rem;
     font-weight: 400;
     margin: 15px 0;
+    line-height: 1.5rem;
 }
 
 input{
     width: 200px;
-    height: 30px;
+    height: 50px;
     margin: 5px 0;
     border: 0;
     border-radius: 5px;
@@ -557,7 +566,7 @@ input::placeholder{
 
 #Sex{
     width: 200px;
-    height: 30px;
+    height: 50px;
     border: 0;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.6);
@@ -569,7 +578,7 @@ input::placeholder{
 
 #factor{
     width: 405px;
-    height: 30px;
+    height: 50px;
     border: 0;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.6);
@@ -604,6 +613,7 @@ input::placeholder{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 30px;
+    line-height: 1.5rem;
 }
 
 .team-section-container{
@@ -627,6 +637,7 @@ input::placeholder{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 5px;
     font-weight: 700;
+    line-height: 1.5rem;
 }
 
 .teams h3{
@@ -676,3 +687,71 @@ input::placeholder{
     background-blend-mode: overlay;
 }
 /* team-section end */
+
+
+/* footer section start */
+footer{
+    background-color: rgb(34, 34, 34);
+    padding: 40px 0;
+}
+
+.footer-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 4rem;
+}
+
+.footer-div-1{
+    width: 30%;
+}
+
+.footer-div-1 a{
+    text-decoration: none;
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.footer-div-1  p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+.footer-div-2{
+    width: 30%;
+}
+
+.footer-div-2 h3{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-div-2 ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.footer-div-2 ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-last p{
+    text-align: center;
+    margin-top: 4rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+/* footer section end */

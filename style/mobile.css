@@ -150,17 +150,14 @@ table{
 
 input{
     width: 150px;
-    height: 30px;
 }
 
 #Sex{
     width: 150px;
-    height: 30px;
 }
 
 #factor{
     width: 305px;
-    height: 30px;
 }
 /* bmi-section end */
 
@@ -171,3 +168,24 @@ input{
     grid-template-columns: repeat(1,1fr);
 }
 /* team-section end */
+
+/* footer section start */
+.footer-container{
+    width: 90%;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.footer-div-1{
+    margin: 15px 0;
+    width: 100%;
+}
+
+.footer-div-2{
+    width: 100%;
+}
+
+.footer-last p{
+    margin-top: 2rem;
+}
+/* footer section end */
