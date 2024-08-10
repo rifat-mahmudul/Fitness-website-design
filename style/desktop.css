@@ -591,6 +591,100 @@ input::placeholder{
 }
 /* bmi-section end */
 
+/* unic-section start */
+.unic-section{
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.unic-section-container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.unic-section-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.unic-section-container > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 15px 0;
+    margin-bottom: 50px;
+    line-height: 1.5rem;
+}
+
+.unic-section-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.unic-section-card{
+    width: 25%;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.unic-section-card:hover{
+    border: 1.5px solid burlywood;
+    background-color: rgba(128, 128, 128, 0.361);
+}
+
+.unic-section-card h3{
+    font-size: 1rem;
+}
+
+.unic-section-card h2{
+    font-size: 1.5rem;
+    margin: 15px 0;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+.card-icon{
+    height: 150px;
+}
+
+.unic-card-icon{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.unic-card-icon i{
+    color: burlywood;
+    font-size: 1rem;
+}
+
+.unic-section-card button{
+    padding: 10px 50px;
+    cursor: pointer;
+    border: 1.5px solid burlywood;
+    border-radius: 5px;
+    color: burlywood;
+    font-weight: 500;
+    background-color: rgb(34, 34, 34);
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.unic-section-card button:hover{
+    background-color: rgba(184, 135, 11, 0.913);
+    color: white;
+    font-weight: 700;
+}
+/* unic-section end */
+
 
 /* team-section start */
 .team-section{
@@ -723,6 +817,11 @@ footer{
     font-weight: 400;
     margin-top: 20px;
     line-height: 1.5rem;
+    transition: 0.5s;
+}
+
+.footer-div-1  p:hover{
+    color: white;
 }
 
 .footer-div-2{
@@ -746,6 +845,11 @@ footer{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
+    transition: 0.5s;
+}
+
+.footer-div-2 ul li a:hover{
+    color: white;
 }
 
 .footer-last p{

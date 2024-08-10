@@ -158,8 +158,24 @@ input{
 
 #factor{
     width: 305px;
+    gap: 15px;
 }
 /* bmi-section end */
+
+/* unic-section start */
+.unic-section-container{
+    width: 90%;
+}
+
+.unic-section-cards{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.unic-section-card{
+    width: 85%;
+}
+/* unic-section end */
 
 
 /* team-section start */
